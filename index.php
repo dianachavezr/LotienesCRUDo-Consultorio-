@@ -17,7 +17,7 @@ $resultado = $sentencia->fetchAll(PDO::FETCH_ASSOC);
 <html lang="es">
 
 <head>
-    <title>Primer proyecto</title>
+    <title>Lo tienes CRUDo Consultorio</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
