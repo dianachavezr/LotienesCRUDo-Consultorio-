@@ -1,14 +1,12 @@
 <?php
+require_once("config.php");
+require_once("controlador/index.php");
 
-require_once "controladores/plantilla.controlador.php";
-require_once "controladores/administrador.controlador.php";
-require_once "controladores/productos.controlador.php";
-require_once "controladores/categoria.controlador.php";
-
-require_once "modelos/administrador.modelo.php";
-require_once "modelos/productos.modelo.php";
-require_once "modelos/categoria.modelo.php";
-require_once "modelos/rutas.php";
-
-$plantilla = new ControladorPlantilla();
-$plantilla->ctrPlantilla();
+//para saber si existe la variable m y llamarla
+if (isset($_GET['m'])) :
+    if (method_exists("modeloController", $_GET['m'])) :
+        modeloController::{$_GET['m']}();
+    endif;
+else :
+    modeloController::index();
+endif;
