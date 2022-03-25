@@ -7,7 +7,7 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Backend Admin</title>
+    <title>hola</title>
 
     <link rel="apple-touch-icon" href="vistas/img/plantilla/icono.png">
     <link rel="shortcut icon" href="vistas/img/plantilla/icono.png">
