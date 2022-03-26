@@ -1,0 +1,30 @@
+CREATE DATABASE IF NOT EXISTS consultorio;
+
+
+USE consultorio 
+
+
+CREATE TABLE paciente (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50) NOT NULL,
+    edad INT UNSIGNED NOT NULL,
+    cedula INT UNSIGNED UNIQUE NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL
+);
+
+
+CREATE TABLE medico (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50) NOT NULL,
+    especializacion VARCHAR(100) NOT NULL,
+    cedula INT UNSIGNED UNIQUE NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL
+);
+
+CREATE TABLE consulta(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    paciente VARCHAR(50) NOT NULL,
+    medico VARCHAR(50) NOT NULL,
+    motivo VARCHAR(200) NOT NULL,
+    fecha timestamp NOT NULL
+);
