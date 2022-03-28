@@ -49,7 +49,7 @@ require_once("layouts/header.php");
                                 <a class="text-danger" href="index.php?m=eliminar&id=<?php echo $v['id'] ?>" onclick="return confirm('Seguro de eliminar registro?') ; false"><i class="bi bi-trash-fill"></i></a>
                             </td>
 
-                            </td>
+
                         </tr>
                     <?php endforeach; ?>
                 <?php else : ?>
