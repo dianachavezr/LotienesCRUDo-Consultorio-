@@ -10,6 +10,10 @@ require_once("layouts/header.php");
 ?>
 <div class=container>
     <form action="" method="get">
+        <!-- 
+    <form class="justify-content-center " action='?action=update&id=<?php echo $data["coder"]->getId() ?>' method="post"> 
+ -->
+
         <?php
         foreach ($dato as $key => $value) :
             foreach ($value as $v) :
