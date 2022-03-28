@@ -1,6 +1,6 @@
 # LotienesCRUDo-Consultorio-
 
-Nos encontramos en una empresa de desarrollo y necesitamos una aplicación que permita pedir cita al CTO para resolver problemas técnicos de los equipos de desarrollo.
+Nos encontramos en una empresa de desarrollo y necesitamos una aplicación que permita pedir cita al CTO para resolver problemas técnicos de los equipos de desarrollo. Este proyecto se llevó a cabo bajo la colabioración de https://github.com/dianachavezr y https://github.com/Lord-Mugen
 
 ![Captura de pantalla de 2022-03-28 16-05-50](https://user-images.githubusercontent.com/79488966/160489425-ee3f85c1-4904-4728-9508-9c4a7a6f659f.png)
 
