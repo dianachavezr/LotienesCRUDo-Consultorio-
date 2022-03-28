@@ -2,6 +2,10 @@
 
 Nos encontramos en una empresa de desarrollo y necesitamos una aplicación que permita pedir cita al CTO para resolver problemas técnicos de los equipos de desarrollo.
 
+![Captura de pantalla de 2022-03-28 16-05-50](https://user-images.githubusercontent.com/79488966/160489425-ee3f85c1-4904-4728-9508-9c4a7a6f659f.png)
+
+
+
 # Ultimas Adiciones
 cambios en la última versión: </br>
 * Iconos para las funciones eliminar y editar.
@@ -47,3 +51,20 @@ Para la aceptación del proyecto se enumeraron un conjunto de requisitos necesar
  * El repositorio debe contener un Readme con explicación del proyecto, y una explicación de cómo instalar o ejecutar la aplicación. </br>
 
 
+# Construcción y uso
+
+Para la construcción de nuestro crud se utilizaron los siguentes lenguajes: </br>
+
+* HTML5 </br>
+* CSS3 </br>
+* PHP </br>
+* MYSQL </br>
+* BOOTSTRAP 5 </br>
+
+
+# Excepción de responsabilidades
+El presente proyecto se comparte "tal cual" con el único objetivo de que sea útil. El/los creadores del presente hardware y su software asociado no pueden garantizar su correcto funcionamiento bajo ninguna circunstancia. El/Los autor/es de este proyecto no podrá/n hacerse responsable/s de cualquier pérdida de carácter material, personal o económico a su persona o terceros derivados de la utilización del mismo. Este proyecto no deberá ser utilizado bajo ninguna circustancia en sistemas de carácter crítico o sistemas de los cuales dependan vidas de personas de manera directa o indirecta.
+
+# licenciamiento
+
+La plantilla de este README.md ha sido desarrollada por la comunidad openhardware.sv con el objetivo de facilitar la documentación de proyectos. Esta plantilla está protegida bajo la licencia CC BY, puedes modificarla y redistribuirla manteniendo esta nota de atribución del autor.
