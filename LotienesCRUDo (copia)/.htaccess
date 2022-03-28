@@ -1,0 +1,13 @@
+# Impedir que se pueda ver el listado de contenidos de un directorio
+
+Options ALL -Indexes
+
+# Url Amigables
+
+RewriteEngine On 
+
+RewriteRule ^([-a-zA-Z0-9ñÑ_/]+)$ index.php?route=$1
+
+php_flag display_startup_errors on
+php_flag display_errors on
+php_flag html_errors on
